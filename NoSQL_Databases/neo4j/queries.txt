@@ -1,0 +1,43 @@
+1 // What is related, and how
+CALL db.schema.visualization()
+
+2
+match (n: Character)
+return distinct count(n.name)
+
+3
+match (c: Country)<-[IN_COUNTRY]-(n: Character)
+RETURN c.name, count(n) as population
+ORDER BY population DESC
+
+4
+match (n: Character)
+optional match (granpa:Character)<-[:HAS_FATHER*2]-(n)
+WHERE not (n)-[:SIBLING]->()
+RETURN n.name, granpa.name
+
+5
+match (n: Character)-[:ENEMY]->(m: Character), (n: Character)-[:SPOUSE|:SIBLING|:HAS_RELATIVE|:HAS_FATHER|:HAS_MOTHER]->(m:Character)
+RETURN n, m
+
+match (n: Character)-[en:ENEMY]->(m: Character), (n: Character)-[:SPOUSE|:SIBLING|:HAS_RELATIVE|:HAS_FATHER|:HAS_MOTHER]->(m:Character)
+with n, m, en
+delete en
+
+6
+match (c:Country)<-[r:IN_COUNTRY]-(n: Character)-[:HAS_OCCUPATION]->(o: Occupation {name: "swordfighter"})
+return count(n) as number_of_swordfighters, c.name
+order by number_of_swordfighters desc
+
+7
+match (c:Country)<-[r:IN_COUNTRY]-(sib: Character)<-[:HAS_SIBLING]-(n: Character)-[:HAS_OCCUPATION]->(o: Occupation {name: "swordfighter"})
+where not (n)-[:IN_COUNTRY]->()
+create (n)-[:IN_COUNTRY]->(c)
+return n, sib, o, c
+
+8
+
+match (c:Country)
+optional match (c)<-[:IN_COUNTRY]-(n:Character)-[:PARTICIPATED]->(e:Event)
+return c.name, collect(distinct n.name) as participants, count(distinct n.name) as num_of_par, collect(e.name) as events
+order by num_of_par desc
