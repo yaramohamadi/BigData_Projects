@@ -12,13 +12,37 @@ Database creation and Queries for crawled stock trades from [Sahamyab](https://w
 <img src="mongodb/imgs/2.png" data-canonical-src="mongodb/imgs/2.png" width="400" />
 
 ## Neo4j
-After creating Nodes for each dataset of a Lord of the Rings film, we've written queries in `Cypher` to extract relevant data from created graphs for each query.
+
+After creating Nodes for the Movies dataset, I wrote queries in `Cypher` to extract relevant data from created graphs for each query.
+
+#### Sample query:
+
+- `Actors who have worked with Tom Hanks and Tom Cruise`
+
+<img src="elasticsearch/actors_worked_with_tom_hanks.png" data-canonical-src="elasticsearch/actors_worked_with_tom_hanks.png" width="400" />
+
+actors_worked_with_tom_hanks.png
 
 ## Cassandra
-Queries for Free Music Archive (FMA). As we don't have joins in Cassandra, we've created a special table for each requested query and after loading the table's data, we applied each requested query.
+Queries for Free Music Archive (FMA). As we don't have joins in Cassandra, I've created a special table for each requested query and after loading the table's data.
+
+#### Sample query:
+
+- `Actors who have worked with Tom Hanks and Tom Cruise`
+
+<img src="cassandra/20_rock_from_2016.png" data-canonical-src="cassandra/20_rock_from_2016.png" width="400" />
+
+
 
 ## Elasticsearch
-Queries for crawled tweets from the Sahamyab site which are Smart investment network in Iran. Then a management dashboard was designed with Kibana.
+Queries for crawled data from crawled stock trades from [Sahamyab](https://www.sahamyab.com/). And creating a management dashboard with Kibana.
 
+#### Sample query:
+
+<img src="elasticsearch/imgs/put and search.png" data-canonical-src="elasticsearch/imgs/put and search.png" width="400" />
+
+#### Sample dashboard:
+
+<img src="elasticsearch/imgs/dashboard.png" data-canonical-src="elasticsearch/imgs/dashboard.png" width="400" />
 
 
