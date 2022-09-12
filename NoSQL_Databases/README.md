@@ -1,4 +1,4 @@
-This is a collection of queries and analytics for NoSQL Databases like ***MongoDB***, ***Neo4j***, ***Cassandra***, and ***Elasticsearch*** for data analytics 
+This is a collection of queries and analytics for some NoSQL Databases (***MongoDB***, ***Neo4j***, ***Cassandra***, and ***Elasticsearch***).
 
 ## MongoDB
 Database creation and Queries for crawled stock trades from [Sahamyab](https://www.sahamyab.com/), a smart investment network in Iran.
