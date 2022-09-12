@@ -8,7 +8,7 @@ Some of my Data Projects in different applications of NoSQL databases, Spark, Da
 - [Working with NoSQL Databases (MongoDB, Neo4j, Cassandra, and Elasticsearch)](https://github.com/yaramohamadi/BigData_Projects/tree/main/NoSQL_Databases)
 
 ### Spark and GraphX
-- [Text analysis, logFile mining, stock market analysis, and Wikipedia analysis](https://github.com/zaha2020/BigData_Projects/tree/main/Spark/)
+- [Text analysis, logFile mining, stock market analysis, and Wikipedia analysis](https://github.com/yaramohamadi/BigData_Projects/tree/main/Spark)
 
 ### Other data analytics project
 - [Crawling static and interactive Iranian webpages](https://github.com/yaramohamadi/Python_Persian_Crawler)
