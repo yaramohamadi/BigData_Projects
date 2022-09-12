@@ -1,0 +1,22 @@
+
+ partition | listens   | genre
+-----------+-----------+---------------------
+         1 | 105239209 |                   -
+         1 |    935960 |               Blues
+         1 |   6625080 |           Classical
+         1 |    475923 |             Country
+         1 |     54809 |      Easy Listening
+         1 |  16333159 |          Electronic
+         1 |   3491186 |        Experimental
+         1 |   2187890 |                Folk
+         1 |   5030515 |             Hip-Hop
+         1 |   8425223 |        Instrumental
+         1 |   4045654 |       International
+         1 |   2017174 |                Jazz
+         1 |   2183149 | Old-Time - Historic
+         1 |   2794717 |                 Pop
+         1 |   7660069 |                Rock
+         1 |    724514 |            Soul-RnB
+         1 |    394739 |              Spoken
+
+(17 rows)

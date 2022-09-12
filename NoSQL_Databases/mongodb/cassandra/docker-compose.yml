@@ -1,0 +1,13 @@
+version: '3.7'
+services:
+  cassandra:
+    image: cassandra
+    container_name: cassandra
+    volumes:
+      - ./data:/src
+    ports:
+      - 9042:9042
+  
+volumes:
+  data:
+    driver: local
