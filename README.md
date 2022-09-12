@@ -1,5 +1,5 @@
 # Data_Projects
-Some of my Data Projects in different applications of NoSQL databases, Spark, Data Pipelines, map-reduce, Data Analytics, and Web Crawling. 
+Some of my Data Projects around Data Pipelines, NoSQL databases, Spark, Map-Reduce, and Data Analytics
 
 ### Data Pipeline (Large-scale project)
 - [A real-time BigData system for monitoring, analysis, and prediction of online Persian Tweets](https://github.com/arminayat/bigdata-finalproject)
