@@ -4,7 +4,7 @@ Some of my Data Projects in different applications of NoSQL databases, Spark, Da
 ### Data Pipelines
 - [A real-time BigData system for analysis of online Persian Tweets](https://github.com/arminayat/bigdata-finalproject)
 
-### NoSQL DataBases
+### NoSQL 
 - [Working with NoSQL Databases (MongoDB, Neo4j, Cassandra, and Elasticsearch)](https://github.com/zaha2020/BigData_Projects/tree/main/NoSQL_Databases)
 
 ### Spark
