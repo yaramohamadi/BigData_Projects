@@ -28,7 +28,7 @@ Queries for Free Music Archive (FMA). As we don't have joins in Cassandra, I've 
 
 #### Sample query:
 
-- `Actors who have worked with Tom Hanks and Tom Cruise`
+- `Show 20 rock songs from 2016`
 
 <img src="cassandra/imgs/20_rock_from_2016.png" data-canonical-src="cassandra/imgs/20_rock_from_2016.png" width="400" />
 
