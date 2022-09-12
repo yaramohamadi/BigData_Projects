@@ -5,11 +5,11 @@ Database creation and Queries for crawled stock trades from [Sahamyab](https://w
 
 #### Sample query:
 
-<img src="mongodb/imgs/3.png" data-canonical-src="mongodb/imgs/3.png" height="250" />
+<img src="mongodb/imgs/3.png" data-canonical-src="mongodb/imgs/3.png" width="400" />
 
 #### MongoDB Compass sample report:
 
-<img src="mongodb/imgs/2.png" data-canonical-src="mongodb/imgs/2.png" height="250" />
+<img src="mongodb/imgs/2.png" data-canonical-src="mongodb/imgs/2.png" width="400" />
 
 ## Neo4j
 After creating Nodes for each dataset of a Lord of the Rings film, we've written queries in `Cypher` to extract relevant data from created graphs for each query.
