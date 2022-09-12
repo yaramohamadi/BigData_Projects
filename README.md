@@ -5,7 +5,7 @@ Some of my Data Projects in different applications of NoSQL databases, Spark, Da
 - [A real-time BigData system for analysis of online Persian Tweets](https://github.com/arminayat/bigdata-finalproject)
 
 ### NoSQL DataBases
-- [Working with NoSQL Databases like MongoDB, Neo4j, Cassandra, and Elasticsearch for data analytics](https://github.com/zaha2020/BigData_Projects/tree/main/NoSQL_DataBases)
+- [Working with NoSQL Databases (MongoDB, Neo4j, Cassandra, and Elasticsearch)](https://github.com/zaha2020/BigData_Projects/tree/main/NoSQL_Databases)
 
 ### Spark
 - [Spark for NLP](https://github.com/zaha2020/BigData_Projects/tree/main/Spark/Spark_NLP)
@@ -15,4 +15,4 @@ Some of my Data Projects in different applications of NoSQL databases, Spark, Da
 
 ### Other data analytics project
 - [Crawling static and interactive Iranian webpages](https://github.com/yaramohamadi/Python_Persian_Crawler)
-- [Spotify data gathering + data analysis + Recommender system](https://github.com/yaramohamadi/Python_Persian_Crawler)
+- [Spotify data gathering + data analysis + Recommender system](https://github.com/yaramohamadi/spotify_analysis)
