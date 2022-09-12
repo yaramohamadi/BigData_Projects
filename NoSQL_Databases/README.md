@@ -19,7 +19,7 @@ After creating Nodes for the Movies dataset, I wrote queries in `Cypher` to extr
 
 - `Actors who have worked with Tom Hanks and Tom Cruise`
 
-<img src="elasticsearch/actors_worked_with_tom_hanks.png" data-canonical-src="elasticsearch/actors_worked_with_tom_hanks.png" width="400" />
+<img src="neo4j/imgs/actors_worked_with_tom_hanks.png" data-canonical-src="neo4j/imgs/actors_worked_with_tom_hanks.png" width="400" />
 
 actors_worked_with_tom_hanks.png
 
@@ -30,7 +30,7 @@ Queries for Free Music Archive (FMA). As we don't have joins in Cassandra, I've 
 
 - `Actors who have worked with Tom Hanks and Tom Cruise`
 
-<img src="cassandra/20_rock_from_2016.png" data-canonical-src="cassandra/20_rock_from_2016.png" width="400" />
+<img src="cassandra/imgs/20_rock_from_2016.png" data-canonical-src="cassandra/imgs/20_rock_from_2016.png" width="400" />
 
 
 
