@@ -3,7 +3,6 @@ This repository contains the implementation of a wide variety of BigData and Dat
 
 ### Data Pipelines
 - [A real-time BigData system for analysis of online Persian Tweets](https://github.com/arminayat/bigdata-finalproject)
-- - Large scale group project!
 
 ### NoSQL DataBases
 - [Working with NoSQL Databases like MongoDB, Neo4j, Cassandra, and Elasticsearch for data analytics](https://github.com/zaha2020/BigData_Projects/tree/main/NoSQL_DataBases)
