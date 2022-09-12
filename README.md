@@ -10,6 +10,6 @@ Some of my Data Projects in different applications of NoSQL databases, Spark, Da
 ### Spark and GraphX
 - [Text analysis, logFile mining, stock market analysis, and Wikipedia analysis](https://github.com/yaramohamadi/BigData_Projects/tree/main/Spark)
 
-### Other data analytics project
+### Data Analytics
 - [Crawling static and interactive Iranian webpages](https://github.com/yaramohamadi/Python_Persian_Crawler)
 - [Spotify data gathering + data analysis + Recommender system](https://github.com/yaramohamadi/spotify_analysis)
